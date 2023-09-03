@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+
+  <title>My blog</title>
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div class="circle-container">
+      <div class="circle">
+        <button id="close">
+          <i class="fas fa-times"></i>
+        </button>
+        <button id="open">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- <div class="icon">
+        <img src="images/InFrame.jpg" alt="">
+      </div> -->
+
+    <div class="content">
+
+    <small>  <h1>Reach me out</h1></small>
+      <hr>
+      <form id="contactForm" class="myform" action="https://formspree.io/f/xoqzoawg" method="POST">
+        <div class="form-group paddin">
+          <small><label for="name">Name:</label></small>
+          <input type="text" id="name" name="name" required>
+          <span id="nameError" class="error-message"></span>
+        </div>
+        <div class="form-group paddin">
+          <small><label for="email">Email:</label></small>
+          <input type="text" id="email" name="email" required>
+          <span id="emailError" class="error-message"></span>
+        </div>
+        <div class="form-group paddin">
+         <small> <label for="message">Message:</label></small>
+          <textarea id="message" name="message" required></textarea>
+          <span id="messageError" class="error-message"></span>
+        </div>
+        <div class="form-group paddin">
+          <button type="submit"class="button"><span>Submit</span></button>
+        
+      </form>
+      
+     
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <hr>
+    
+      <p class="footer"> Copyright &copy;2023 Heyynavv </p> 
+    
+    
+    
+
+  </div>
+
+
+
+
+  <nav>
+    <ul>
+      <small>
+
+        <li><i class="fas fa-solid fa-blog fa-bounce"></i><a href="index.html"> Blog</a></li>
+        <li><i class="fas fa-paragraph"></i><a href="writings.html"> Writings</a></li>
+        <li><i class="fas fa-envelope"></i><a href="contact.html"> Contact</a></li>
+        
+      </small>
+  </nav>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
